@@ -1,0 +1,76 @@
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)), url('https://i.pinimg.com/564x/6f/9e/ef/6f9eef30d5392883c4d2a341d4ab0a0c.jpg');
+}
+
+.wrapper {
+    margin: 24px auto;
+    padding: 0 16px;
+    max-width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), url("https://avatanplus.com/files/resources/original/59a4f93b19a2215e2c6d8ee1.jpg");
+    box-shadow: 0 0 10px rgba(255, 255, 255, .3);
+}
+
+h1 {
+    color: white;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    letter-spacing: -.1rem;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    text-shadow:
+        -1px -1px 2px rgba(0, 0, 0, 0.4),
+        1px -1px 2px rgba(0, 0, 0, 0.4),
+        -1px 1px 2px rgba(0, 0, 0, 0.4),
+        1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+p {
+    margin-bottom: 0px;
+    font-weight: 500;
+    line-height: 1.3rem;
+    color: white;
+    text-shadow:
+        -1px -1px 1px rgba(0, 0, 0, 0.4),
+        1px -1px 1px rgba(0, 0, 0, 0.4),
+        -1px 1px 1px rgba(0, 0, 0, 0.4),
+        1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+img {
+    max-width: 350px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-section {
+    margin-bottom: 16px;
+}
+
+h2 {
+    margin-top: 2px;
+    color: white;
+    text-shadow:
+        -1px -1px 2px rgba(0, 0, 0, 0.4),
+        1px -1px 2px rgba(0, 0, 0, 0.4),
+        -1px 1px 2px rgba(0, 0, 0, 0.4),
+        1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+article {
+    zoom: 2;
+}
